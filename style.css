@@ -39,6 +39,7 @@ font-family: 'sora';
 font-size: 16px;
 border: none;
 width: 100%;
+height: 25px;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -65,22 +66,262 @@ align-items: center;
     font-family: "sora";
 }
 
-#gt{
-    border: 1px solid white;
-    padding: 3px 10px;
-    border-radius: 20px;
+
+
+
+
+
+
+
+
+
+@media(max-width:600px){
+    body{
+        background-color: #212121;
+    }
     
+    
+    .principal-info{
+        background-color: #1b263b;
+        justify-content: center;
+        align-items: center;
+        clip-path: polygon(0 0, 100% 0, 100% 93%, 0 100%);
+        margin: 0px;
+        
+    }
+
+
+    #name{
+        font-family: "px";
+        color: #fff;
+        font-size: 85px;
+        text-align: center;
+    }
+
+    .principal-info p{
+        color: #8338ec;
+        font-family: "sora";
+        padding: 20px;
+        text-align: center;
+        
+    }
+
+    .principal-info > .redes img{
+        height: 40px;
+        margin-right: 10px;
+    }
+
+    .principal-info > .redes{
+        margin-left: 41%;
+        padding-bottom: 20px;
+        
+    }
+    .proyectos{
+        margin: 0 auto 50px;
+        
+        
+    }
+
+    .proyectos h2{
+        font-family: "px";
+        text-align: center;
+        font-size: 60px;
+        color: #8338ec;
+        clip-path: polygon(0 0, 100% 0, 100% 93%, 0 100%);
+    }
+    .proyectos .parrafo{
+        text-align: center;
+        font-family: "sora";
+        color: #fff;
+    }
+
+    .proyectos .assa{
+        border: 1px solid #fff;
+        width: 90%;
+        margin: auto;
+        border-radius: 5px;
+        background-color: #313131;
+        margin-top: 35px;
+        padding-bottom: 10px;
+        
+    }
+
+    .proyectos .assa h3{
+            text-align: center;
+            font-family: "px";
+            color: #fff;
+            font-size: 40px;
+            font-weight: 100;
+    }
+
+    .proyectos .assa p{
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        font-family: "sora";
+        color: #8338ec;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .proyectos .assa #click{
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: #fff;
+        margin-left: 34%;
+        margin-top: 10px;
+        border-radius: 5px;
+        padding: 3px 10px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .skills{
+        background-color: #1b263b;
+        margin: auto;
+        padding-bottom: 30px;
+        clip-path: polygon(0 0, 100% 0, 100% 93%, 0 100%);
+    }
+
+    .skills h2{
+        font-family: "px";
+        font-size: 40px;
+        text-align: center;
+        color: #fff;
+        font-weight: 100;
+    }
+    .skills p{
+        text-align: center;
+        font-size: 16px;
+        font-family: "sora";
+        color: #8338ec;
+        margin-bottom: 30px;
+    }
+
+    .skills .box-logos img{
+        height: 50px;
+       
+        border: 1px solid #fff;
+        padding: 3px;
+        border-radius: 5px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .skills .box-logos{
+        margin-left:8%;
+    }
+ 
+    #servicios h2{
+        font-family: "px";
+        font-size: 40px;
+        font-weight: 100;
+        color: #fff;
+        margin-left: 30px;
+        margin-bottom: 15px;
+    }
+    #servicios ul li{
+        margin-left: 10px;
+        font-family: "sora";
+        color: #8338ec;
+        margin-bottom: 15px;
+        list-style:inside;
+        
+    }
+    #servicios ul{
+        border: 1px solid #fff;
+        margin-left: 5px;
+        margin-right: 5px;
+        border-radius: 5px;
+        background-color: #313131;
+        padding-top: 7px;
+    }
+
+    .estudios{
+        background-color: #1b263b;
+        margin-top: 30px;
+    }
+
+    .estudios h2{
+        font-family: "px";
+        font-weight: 100;
+        color: #fff;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .estudios .auto{
+        text-align: center;
+        font-family: "sora";
+        color: #8338ec;
+        margin-bottom: 25px;
+    }
+
+    .estudios .text{
+        font-family: "sora";
+        color: #fff;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .estudios h3{
+        font-family: "px";
+        font-size: 30px;
+        color: #8338ec;
+        font-weight: 100;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .estudios .nav-aprend{
+        margin-top: 15px;
+        padding-bottom: 30px;
+    }
+    .estudios .nav-aprend a {
+        
+        color: #fff;
+        font-family: "sora";
+        display: block;
+        margin: auto;
+        text-align: center;
+        margin-top: 5px;
+        clip-path: polygon(0 0, 100% 0, 100% 93%, 0 100%);
+    }
+
+
+    .footer{
+        background-color: #121212;
+        padding-top: 15px;
+    }
+
+    .footer h2{
+        margin-left: 30px;
+        color: #fff;
+        font-family: "px";
+        font-size: 40px;
+    }
+
+    .footer .copy{
+        margin-left: 30px;
+        font-family: "sora";
+        color: #fff;
+    }
+
+    .footer .logo-redes{
+        
+        margin-top: 17px;
+        margin-left: 30px;
+        margin-right: 10px;
+        justify-content: center;
+        margin-right: 30px;
+    }
+
+  .footer img{
+    height: 50px;
+
+  }
+
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
